@@ -14,9 +14,6 @@ switch (choise)
         result = Div();
         break;
     case 3:
-        result = Sum();
-        break;
-    case 3:
         result = Dif();
         break;
 }
