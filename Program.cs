@@ -13,8 +13,11 @@ switch (choise)
     case 2:
         result = Div();
         break;
-    case 3:
-        result = Dif();
+
+
+
+    case 4:
+        result = Sum();
         break;
 }
 
@@ -43,6 +46,17 @@ int Div()
     return res;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 int Dif()
 {
     int res;
@@ -50,6 +64,6 @@ int Dif()
     int a = int.Parse(Console.ReadLine());
     Console.Write("Введите b: ");
     int b = int.Parse(Console.ReadLine());
-    res = a - b;
+    res = a + b;
     return res;
 }
