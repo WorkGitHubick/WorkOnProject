@@ -16,6 +16,9 @@ switch (choise)
     case 3:
         result = Sum();
         break;
+    case 4:
+        result = Dif();
+        break;
 }
 
 Console.WriteLine($"Ответ: {result}");
@@ -54,3 +57,13 @@ int Sum()
     return res;
 }
 
+int Dif()
+{
+    int res;
+    Console.Write("Введите a: ");
+    int a = int.Parse(Console.ReadLine());
+    Console.Write("Введите b: ");
+    int b = int.Parse(Console.ReadLine());
+    res = a + b;
+    return res;
+}
