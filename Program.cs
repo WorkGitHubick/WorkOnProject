@@ -10,6 +10,15 @@ switch (choise)
     case 1:
         result = Multi();
         break;
+    case 2:
+        result = Div();
+        break;
+    case 3:
+        result = Sum();
+        break;
+    case 3:
+        result = Dif();
+        break;
 }
 
 Console.WriteLine($"Ответ: {result}");
@@ -34,5 +43,16 @@ int Div()
     Console.Write("Введите b: ");
     int b = int.Parse(Console.ReadLine());
     res = a / b;
+    return res;
+}
+
+int Dif()
+{
+    int res;
+    Console.Write("Введите a: ");
+    int a = int.Parse(Console.ReadLine());
+    Console.Write("Введите b: ");
+    int b = int.Parse(Console.ReadLine());
+    res = a + b;
     return res;
 }
