@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS_Projects\\WorkOnProject\\WorkOnProject.csproj": {}
+    "C:\\Users\\Roman\\WorkOnProject\\WorkOnProject.csproj": {}
   },
   "projects": {
-    "E:\\VS_Projects\\WorkOnProject\\WorkOnProject.csproj": {
+    "C:\\Users\\Roman\\WorkOnProject\\WorkOnProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS_Projects\\WorkOnProject\\WorkOnProject.csproj",
+        "projectUniqueName": "C:\\Users\\Roman\\WorkOnProject\\WorkOnProject.csproj",
         "projectName": "WorkOnProject",
-        "projectPath": "E:\\VS_Projects\\WorkOnProject\\WorkOnProject.csproj",
+        "projectPath": "C:\\Users\\Roman\\WorkOnProject\\WorkOnProject.csproj",
         "packagesPath": "C:\\Users\\Roman\\.nuget\\packages\\",
-        "outputPath": "E:\\VS_Projects\\WorkOnProject\\obj\\",
+        "outputPath": "C:\\Users\\Roman\\WorkOnProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
