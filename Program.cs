@@ -13,9 +13,6 @@ switch (choise)
     case 2:
         result = Div();
         break;
-    case 3:
-        result = Sum();
-        break;
 }
 
 Console.WriteLine($"Ответ: {result}");
