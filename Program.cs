@@ -29,7 +29,7 @@ int Multi()
 int Div()
 {
     int res;
-    Console.Write("Введите a: ");
+    Console.Write("Введите быстрее a: ");
     int a = int.Parse(Console.ReadLine());
     Console.Write("Введите b: ");
     int b = int.Parse(Console.ReadLine());
