@@ -53,6 +53,6 @@ int Dif()
     int a = int.Parse(Console.ReadLine());
     Console.Write("Введите b: ");
     int b = int.Parse(Console.ReadLine());
-    res = a + b;
+    res = a - b;
     return res;
 }
