@@ -42,14 +42,3 @@ int Div()
     res = a / b;
     return res;
 }
-
-int Sum()
-{
-    int res;
-    Console.Write("Введите a: ");
-    int a = int.Parse(Console.ReadLine());
-    Console.Write("Введите b: ");
-    int b = int.Parse(Console.ReadLine());
-    res = a + b;
-    return res;
-}
